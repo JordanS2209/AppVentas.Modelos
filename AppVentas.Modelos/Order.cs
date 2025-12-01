@@ -8,7 +8,7 @@ namespace AppVentas.Modelos
 {
     public class Order
     {
-        public int OrderId { get; set; }
+        public int Id { get; set; }
         public int UserId { get; set; }
         public int ProductId { get; set; }
         public int Cantidad { get; set; }

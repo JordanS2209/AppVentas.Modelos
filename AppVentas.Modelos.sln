@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVentas.Modelos", "AppVentas.Modelos\AppVentas.Modelos.csproj", "{8942B985-68CC-4895-BF90-41E3D1723445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVentas.API", "AppVentas.API\AppVentas.API.csproj", "{060F14B6-2A12-44F6-B5F9-F50FC621997B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8942B985-68CC-4895-BF90-41E3D1723445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8942B985-68CC-4895-BF90-41E3D1723445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8942B985-68CC-4895-BF90-41E3D1723445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060F14B6-2A12-44F6-B5F9-F50FC621997B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060F14B6-2A12-44F6-B5F9-F50FC621997B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060F14B6-2A12-44F6-B5F9-F50FC621997B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060F14B6-2A12-44F6-B5F9-F50FC621997B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,11 +9,11 @@ namespace AppVentas.Modelos
 {
     public class Product
     {
-        [Key] public int ProductId { get; set; }
+        [Key] public int Id { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public double Precio { get; set; }
         public int Cantidad { get; set; }
-        public List<Order> Orders { get; set; }
+        public List<Order>? Orders { get; set; }
     }
 }
