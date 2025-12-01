@@ -9,6 +9,8 @@ namespace AppVentas.Modelos
         public string CorreoElectronico { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
+        public List <Order>? Orders { get; set; }
+
 
 
     }

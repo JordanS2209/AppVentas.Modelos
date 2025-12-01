@@ -15,6 +15,8 @@ namespace AppVentas.Modelos
         public DateTime FechaYHora { get; set; } = DateTime.Now;
         public double Subtotal { get; set; }
         public double Total { get; set; }
+        public User? User { get; set; }
+        public Product? Product { get; set; }
 
     }
 }
